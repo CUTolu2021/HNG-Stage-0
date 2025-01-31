@@ -1,5 +1,7 @@
 # HNG12 Backend API
 
+https://hng.tech/hire/nodejs-developers 
+
 ## Description
 This is a public API that returns basic information including email, current datetime, and GitHub URL.
 
@@ -17,3 +19,4 @@ This is a public API that returns basic information including email, current dat
   "current_datetime": "2025-01-30T09:30:00Z",
   "github_url": "https://github.com/yourusername/your-repo"
 }
+

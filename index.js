@@ -7,9 +7,9 @@ let PORT = 3000
 app.use(cors())
 
 app.get('/api/classify-number', async (req, res) => {
-    const entry = parseInt(req.query.number, 10);
+    const entry = Number(req.query.number)
 
-    if (isNaN(entry)) {
+    if (isNaN(entry)||!Number.isInteger(entry)) {
         return res.status(400).send(
             {
                 number: 'alphabet',

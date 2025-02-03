@@ -25,7 +25,7 @@ The Number Classification API is a RESTful API that takes a number as input and 
 - `number`: The number to classify (must be a valid integer).
 
 #### Example Request
-GET https://hng-stage-0-three.vercel.app/api/classify-number?number=153
+GET https://hng-stage-0-three.vercel.app/api/classify-number?number=371
 
 
 #### Example Response (200 OK)
